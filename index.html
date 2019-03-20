@@ -6,9 +6,12 @@
     <meta name="language" content="english">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/style/index.css">
+    <link rel="stylesheet" href="/style/aos.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+
     <title>Index</title>
 </head>
 
@@ -21,8 +24,9 @@
                     <img src="/images/logo.png" alt="logo.png">
                 </div>
                 <a class="navbar-brand" href="#">Bio Beaute </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -35,8 +39,8 @@
                             <a class="nav-link" href="catalog.html">Catalog</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                                aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Filter </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Skin Care</a>
@@ -58,39 +62,126 @@
             </nav>
         </div>
         <div class="header">
-            <div class="headerInfo container">
-                <div class="productInfo">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime totam amet sit numquam, quaerat
-                        quod
-                        debitis? Earum non aliquid porro minus, repellendus numquam quod maiores, dolorem voluptatem
-                        consequatur unde nemo.</p>
-                </div>
-                <div class="productInfo2">
+            <div class="productInfo" data-aos="fade-up" data-aos-duration="900">
+                <p>Welcome to Own Beautè, your number one source for all natural cosmetics. We're dedicated to giving
+                    you the very best service, with a focus on uniqueness and quality of our products.
+                    Founded in 2017, Own Beautè has come a long way from its beginnings. When Pilani Joana first started
+                    out, her passion for biologic cosmetics, drove her to study and produce unique products for every
+                    customer and gave her the impetus to turn hard work and inspiration into to a booming online store.
+                    We now serve customers all over Italy and are thrilled to be a part of the eco-friendly wing of the
+                    cosmetic industry.
+                </p>
+            </div>
+            <!-- <div class="productInfo2">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, deserunt. Incidunt fugit
                         esse at quo, iste nisi optio eveniet facilis officia aliquid quas pariatur quos laborum dolores
                         repellendus delectus praesentium!</p>
+                </div> -->
+        </div>
+    </div>
+    </div>
+    <div class="sectionContent container">
+        <h3>Top Products</h3>
+        <!--Pershkrim dhe categorite e producteve-->
+        <div class="product1" data-aos="fade-up" data-aos-duration="500">
+            <div class="product1_image"></div>
+            <div class="product1_info">
+                <p>Transparent and light weighted the makeup fixer is thought to give a mattifying affect to the face.
+                    It
+                    can be used with and without make up for those who have an oily skin, as it has no colour does not
+                    limit
+                    you in its uses. Applied when you are wearing makeup makes it sweat and waterproof so it lasts
+                    longer
+                    throughout the day and if you use it in a clean face it creates the perfect skin oil free</p>
+                <!-- <ol>How to apply the makeup fixer:
+                    <li>Take a small amount off the container ( drop it on the container lid and then take it with a
+                        sponge or a fluffy brush). </li>
+                    <li>Apply it to the skin smoothly in different parts. </li>
+                    <li>Brush it away as the skin only needs a small amount of this product. </li>
+                    <li>It leaves a glowing skin. </li>
+                </ol> -->
+            </div>
+        </div>
+        <div class="product2" data-aos="fade-up" data-aos-duration="500">
+            <div class="product2_info">
+                <p>Colourful and fun but at the same time healthy, the coloured body scrub is designed to give the most
+                    amazing experience during the shower. You can choose from different colours and fragrances as cotton
+                    candy, minty fresh, citrus dream and tropical berry. The scrub has the property to exfoliate and
+                    nourish the skin by giving and amazing glow after it’s use.</p>
+            </div>
+            <div class="slideShow_BodyScrub">
+                <div id="slideshow">
+                    <div class="slide-wrapper">
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                        <div class="slide"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="sectionContent"></div>
-    <!--Pershkrim dhe categorite e producteve-->
 
-    <div class="marketSales">
+    <div class="marketSales container">
         <div class="productCategory">
             <!--fut nje foto dhe reklame-->
+            <div class="card-deck">
+                <div class="card" data-aos="fade-up" data-aos-duration="700">
+                    <img src="/images/helix_hair_mask.png" class="card-img-top" alt="helix.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">Helix hair mask</h5>
+                        <p class="card-text">Ultra nourishing and filled with vitamins the helix hair mask is produced
+                            for those who have very damaged hairs. The mask contains different butters and essential
+                            oils that help the hair to grow healthy and to be more strong and shiny. Don’t be scared by
+                            the fact that it is an oil based mask, because is designed to be light and without oil
+                            residue after washing it. What I can guarantee is that you will never change this hair mask
+                            after you tried it</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-down" data-aos-duration="700">
+                    <img src="/images/bee_balm.png" class="card-img-top" alt="bee_balm.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Bee Balm</h5>
+                        <p class="card-text">Nourish and soothe dry lips with our moisturizing bee balm. Smooth on this
+                            balm to hydrate lips from dryness in the winter and around the year.
+                            The product is available in different scents as, unscented, mint, fruity and chocolate.
+                        </p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card" data-aos="fade-up" data-aos-duration="700">
+                    <img src="/images/personalized_lipstick.png" class="card-img-top" alt="lipstick.png">
+                    <div class="card-body">
+                        <h5 class="card-title">Personalized Lipstick</h5>
+                        <p class="card-text">Dedicated to all makeup lovers that want to conquer the world with their
+                            uniqueness. The personalized lipstick is projected that everyone can choose from 4-6 colours
+                            to make a colour as they desire. It has all natural and organic ingredients and has the
+                            purpose to moisturize and nourish the lips</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--Nje nga produktet me buton per te pare kategorite-->
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
     <script type="text/javascript" src="/script/index.js"></script>
+    <script type="text/javascript" src="/script/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

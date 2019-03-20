@@ -1,5 +1,12 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Nunito', sans-serif;
+}
+
+
 /*Index*/
-.mainBanner, .topbar.sticky-top {
+.mainBanner,
+.topbar.sticky-top {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -25,31 +32,133 @@
 }
 
 .header {
-    background-image: url(/images/header_img.jpg);
+    background-image: url(/images/header_img2.jpg);
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-end;
     padding-bottom: 50px;
 }
 
 .headerInfo {
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
 
 }
 
-.productInfo, .productInfo2 {
-    width: 300px;
-    height: 200px;
+.productInfo {
+    width: 450px;
+    height: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #d1fedd;
     border-radius: 10px;
     text-align: left;
-    padding: 10px; 
+    padding: 10px;
+    margin-left: 50px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 200px;
 }
+
+.sectionContent h3 {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.product1, .product2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.product1_image {
+    background-image: url(/images/makeupfixer1.png);
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 220px;
+    height: 285px;
+    border-radius: 10px;
+}
+
+.product1_info, .product2_info {
+    width: 800px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+}
+
+.slideShow_BodyScrub{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#slideshow {
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .slide-wrapper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+  }
+  
+  .slide {
+    float: left;
+    height: 200px;
+    width: 300px;
+  }
+  
+  .slide:nth-child(1) {
+    background-image:url(/images/cotton_candy_body_scrub.png);
+    background-repeat:no-repeat; 
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  .slide:nth-child(2) {
+    background-image:url(/images/citrus_dream.png);
+    background-repeat:no-repeat; 
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  .slide:nth-child(3) {
+    background-image:url(/images/minty_dream.png); 
+    background-repeat:no-repeat; 
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  .slide:nth-child(4) {
+    background-image:url(/images/tropical_berry.png);
+    background-repeat:no-repeat; 
+    background-position: center;
+    border-radius: 10px;
+  }
+  
+  /* .slide-number {
+    color: #000;
+    text-align: center;
+    font-size: 10em;
+  } */
+  
+  @-webkit-keyframes slide {
+    20% {margin-left: 0px;}
+    30% {margin-left: -300px;}
+    50% {margin-left: -300px;}
+    60% {margin-left: -600px;}
+    70% {margin-left: -600px;}
+    80% {margin-left: -900px;}
+    90% {margin-left: -900px;}
+  }
+  
+  .sectionContent { 
+      margin-bottom: 50px;
+  }
