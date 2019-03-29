@@ -1,83 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="language" content="english">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/style/.css">
+    <link rel="stylesheet" href="/style/bodyCare.css">
     <link rel="stylesheet" href="/style/aos.css">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Body Care</title>
 </head>
+
 <body>
 
-        <div class="topbar sticky-top">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="logo">
-                        <img src="/images/own_beaute_logo.png" alt="logo.png">
-                    </div>
-                    <a class="navbar-brand" href="index.html">Bio Beaute </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link text-success" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="catalog.html">Catalog</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Filter </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Skin Care</a>
-                                    <a class="dropdown-item" href="#">Hair Care</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Shopping Cart</a>
-                                </div>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.instagram.com/own_beaute/"> <i
-                                        class="fab fa-instagram"></i> Instagram</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="https://www.facebook.com/bio.beaute.58 "> <i
-                                        class="fab fa-facebook"></i> Facebook</a>
-                            </li>
-    
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                            <div class="logIn"><img src="/icons/login.png" alt="logIn.png"></div>
-                        </form>
-                    </div>
-                </nav>
+    <div class="topbar sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="logo">
+                <img src="/images/own_beaute_logo.png" alt="logo.png">
             </div>
-    
+            <a class="navbar-brand" href="index.html">Bio Beaute </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-warning" href="catalog.html">Catalog</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Filter </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Skin Care</a>
+                            <a class="dropdown-item" href="#">Hair Care</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Shopping Cart</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.instagram.com/own_beaute/"> <i
+                                class="fab fa-instagram"></i> Instagram</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.facebook.com/bio.beaute.58 "> <i
+                                class="fab fa-facebook"></i> Facebook</a>
+                    </li>
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    <div class="logIn"><img src="/icons/login.png" alt="logIn.png"></div>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <div class="bodyCategory">
+         <!-- horizontal -->
+            <div class="flip">
+                <div class="front" style="background-image: url(/images/cotton_candy_body_scrub.png)">
+                   <h1 class="text-shadow">Candy Body Scrub</hi>
+                </div>
+                <div class="back">
+                   <h2>Candy Body Scrub</h2>
+                   <p>A colorful body scrub that promotes fun health. Skincare Concerns: Dryness, dead cells.</p>
+                   <p>Coconut butter: treats dry skin. Vit E: promotes healthy, hydrated skin. Brown sugar: exfoliates the skin. Extra virgin olive oil: promotes hydration. Essential oils: for fragrance of the product and to enhance the ingredients power.</p>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="front" style="background-image: url(/images/citrus_dream.png)">
+                   <h1 class="text-shadow">LAKE</hi>
+                </div>
+                <div class="back">
+                   <h2>Citrus Dream</h2>
+                   <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+                </div>
+            </div>
+            <div class="flip">
+                <div class="front" style="background-image: url(/images/tropical_berry.png)">
+                   <h1 class="text-shadow">OCEAN</hi>
+                </div>
+                <div class="back">
+                   <h2>Tropical Berry</h2>
+                   <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+                </div>
+            </div>
+            
+            <br>
+            <br>
+            
+            <!-- vertical -->
+            <div class="flip flip-vertical">
+                <div class="front" style="background-image: url(https://images.pexels.com/photos/38136/pexels-photo-38136.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
+                   <h1 class="text-shadow">FOREST</hi>
+                </div>
+                <div class="back">
+                   <h2>Angular</h2>
+                   <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+                </div>
+            </div>
+            <div class="flip flip-vertical">
+                <div class="front" style="background-image: url(https://images.pexels.com/photos/34950/pexels-photo.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
+                   <h1 class="text-shadow">TRACK</hi>
+                </div>
+                <div class="back">
+                   <h2>Angular</h2>
+                   <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+                </div>
+            </div>
+            <div class="flip flip-vertical">
+                <div class="front" style="background-image: url(https://images.pexels.com/photos/34546/sunset-lake-landscape-summer.jpg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
+                   <h1 class="text-shadow">SWAMP</hi>
+                </div>
+                <div class="back">
+                   <h2>Angular</h2>
+                   <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+                </div>
+            </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <footer class="page-footer font-small blue">
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <p>Own Beaute</p>
+            </div>
+    </div>
+    </footer>
+    <!-- Footer -->
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-</script>
-<script type="text/javascript" src="/script/main.js"></script>
-<script type="text/javascript" src="/script/aos.js"></script>
-<script>
-    AOS.init();
-</script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/script/main.js"></script>
+    <script type="text/javascript" src="/script/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

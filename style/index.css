@@ -169,8 +169,29 @@ body {
 
   .footer {
     background-color: rgb(235, 143, 38);
+    height: 70px;
   }
 
   .marketSales { 
     margin-bottom: 30px;
   }
+
+  /*Hair Care css layout and things related to hair_care.html*/
+
+  .hairCare {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+
+  .hairCare_one, .hairCare_two, .hairCare_three, .hairCare_four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  } 
+
+  .shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  
