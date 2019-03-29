@@ -77,6 +77,10 @@ body {
     margin-top: 360px;
 }
 
+.content {
+    background-color: rgba(32, 21, 5, 0.589);
+}
+
 .btn {
     border: 1px solid #f89809;
     background: none;

@@ -1,58 +1,65 @@
+body {
+  background-image: url(/images/crossline-lines.png);
+}
+
 .mainBanner,
 .topbar.sticky-top {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo img {
-    border-radius: 10px;
-    width: 200px;
-    height: 50px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .logo {
-    margin-right: 50px;
+  margin-right: 50px;
 }
 
 .logIn img {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
 
 .logIn {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .header {
-    background-image: url(/images/header_img2.jpg);
-    width: 100%;
-    height: 900px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    padding-bottom: 50px;
+  background-image: url(/images/header_img2.jpg);
+  width: 100%;
+  height: 900px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 50px;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
 * {
   box-sizing: border-box;
   font-weight: normal;
 }
 
-/* .bodyCategory {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.bodyCategory {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
-.bodyCare_one, .bodyCare_two{
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-} */
+
+.cardOne, .cardTwo, .cardThree{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
 h1 {
   font-size: 2.2em;
@@ -60,18 +67,22 @@ h1 {
 
 .flip {
   position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.flip > .front,
-.flip > .back {
+
+.flip>.front,
+.flip>.back {
   display: block;
   transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  transition-duration: .5s;
+  transition-duration: 1s;
   transition-property: transform, opacity;
 }
-.flip > .front {
+
+.flip>.front {
   transform: rotateY(0deg);
 }
-.flip > .back {
+
+.flip>.back {
   position: absolute;
   opacity: 0;
   top: 0px;
@@ -80,20 +91,25 @@ h1 {
   height: 100%;
   transform: rotateY(-180deg);
 }
-.flip:hover > .front {
+
+.flip:hover>.front {
   transform: rotateY(180deg);
 }
-.flip:hover > .back {
+
+.flip:hover>.back {
   opacity: 1;
   transform: rotateY(0deg);
 }
-.flip.flip-vertical > .back {
+
+.flip.flip-vertical>.back {
   transform: rotateX(-180deg);
 }
-.flip.flip-vertical:hover > .front {
+
+.flip.flip-vertical:hover>.front {
   transform: rotateX(180deg);
 }
-.flip.flip-vertical:hover > .back {
+
+.flip.flip-vertical:hover>.back {
   transform: rotateX(0deg);
 }
 
@@ -104,8 +120,9 @@ h1 {
   margin-bottom: 1em;
   width: 400px;
 }
-.flip > .front,
-.flip > .back {
+
+.flip>.front,
+.flip>.back {
   display: block;
   color: white;
   width: inherit;
@@ -116,8 +133,9 @@ h1 {
   background: #313131;
   border-radius: 10px;
 }
-.flip > .front p,
-.flip > .back p {
+
+.flip>.front p,
+.flip>.back p {
   font-size: 0.9125rem;
   line-height: 160%;
   color: #999;
@@ -130,7 +148,106 @@ h1 {
 
 
 
-.footer {
-    background-color: rgb(235, 143, 38);
+  /*Footer -------------------------------------------------------------------------------------------------*/
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+  /* Colors */
+  * {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: Raleway, sans-serif;
+    background-color: #fff;
+  }
+  
+  footer {
+    width: 100%;
+    display: inline-block;
+    margin: 2em 0;
     height: 70px;
+    background-color: #999;
+    margin-bottom: -30px;
+  }
+  footer .copyright {
+    width: 50%;
+    float: left;
+  }
+  @media (max-width: 600px) {
+    footer .copyright {
+      width: 100%;
+    }
+  }
+  footer .copyright p {
+    padding-left: 10%;
+    color: white;
+    font-size: 0.7em;
+    line-height: 70px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  @media (max-width: 600px) {
+    footer .copyright p {
+      text-align: center;
+      padding: 0;
+    }
+  }
+  footer .social {
+    width: 50%;
+    float: right;
+  }
+  @media (max-width: 600px) {
+    footer .social {
+      width: 100%;
+    }
+  }
+  footer .social a {
+    float: left;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s;
+  }
+  footer .social a:hover {
+    background-color: #222;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s;
+  }
+  
+  .linked {
+    background-color: #1E83AE;
+    font-size: 1.2em;
+    width: 20%;
+  }
+
+  .linked p {
+    color: #fff;
+  }
+  
+  .face {
+    background-color: #3D5B94;
+    font-size: 1.2em;
+    width: 20%;
+  }
+  
+  .insta {
+    background-color: rgb(221, 61, 114);
+    font-size: 1.2em;
+    width: 20%;
+  }
+  
+  .support {
+    background-color: #6dcd9a;
+    font-size: 0.8em;
+    width: 40%;
   }

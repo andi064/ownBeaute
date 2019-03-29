@@ -1,5 +1,5 @@
 body {
-    background-color: whitesmoke;
+    background-image: url(/images/crossline-lines.png);
     font-family: 'Nunito', sans-serif;
 }
 
@@ -167,11 +167,6 @@ body {
       margin-bottom: 50px;
   }
 
-  .footer {
-    background-color: rgb(235, 143, 38);
-    height: 70px;
-  }
-
   .marketSales { 
     margin-bottom: 30px;
   }
@@ -194,4 +189,109 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+
+  /*Footer -------------------------------------------------------------------------------------------------*/
+  @import url(https://fonts.googleapis.com/css?family=Raleway);
+  /* Colors */
+  * {
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: Raleway, sans-serif;
+    background-color: #fff;
+  }
+  
+  footer {
+    width: 100%;
+    display: inline-block;
+    margin: 2em 0;
+    height: 70px;
+    background-color: #999;
+    margin-bottom: -30px;
+  }
+  footer .copyright {
+    width: 50%;
+    float: left;
+  }
+  @media (max-width: 600px) {
+    footer .copyright {
+      width: 100%;
+    }
+  }
+  footer .copyright p {
+    padding-left: 10%;
+    color: white;
+    font-size: 0.7em;
+    line-height: 70px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  @media (max-width: 600px) {
+    footer .copyright p {
+      text-align: center;
+      padding: 0;
+    }
+  }
+  footer .social {
+    width: 50%;
+    float: right;
+  }
+  @media (max-width: 600px) {
+    footer .social {
+      width: 100%;
+    }
+  }
+  footer .social a {
+    float: left;
+    line-height: 70px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s;
+  }
+  footer .social a:hover {
+    background-color: #222;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    -webkit-transition: all, 0.3s;
+    transition: all, 0.3s;
+  }
+  
+  .linked {
+    background-color: #1E83AE;
+    font-size: 1.2em;
+    width: 20%;
+  }
+
+  .linked p {
+    color: #fff;
+  }
+  
+  .face {
+    background-color: #3D5B94;
+    font-size: 1.2em;
+    width: 20%;
+  }
+  
+  .insta {
+    background-color: rgb(221, 61, 114);
+    font-size: 1.2em;
+    width: 20%;
+  }
+  
+  .support {
+    background-color: #6dcd9a;
+    font-size: 0.8em;
+    width: 40%;
+  }
+  
   
