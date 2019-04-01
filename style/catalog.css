@@ -67,7 +67,7 @@ ul li a:hover:before {
 body {
     margin: 0;
     padding: 0;
-    background-image: url("/images/catalog_background.jpg");
+    background-image: url("./images/catalog_background1.jpg");
     background-position: cover;
     background-repeat: no-repeat;
 }
@@ -78,7 +78,7 @@ body {
 }
 
 .content {
-    background-color: rgba(32, 21, 5, 0.589);
+    /* background-color: rgba(32, 21, 5, 0.589); */
 }
 
 .btn {

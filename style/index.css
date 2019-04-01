@@ -1,5 +1,5 @@
 body {
-    background-image: url(/images/crossline-lines.png);
+    background-image: url(./images/leaves.png);
     font-family: 'Nunito', sans-serif;
 }
 
@@ -32,7 +32,7 @@ body {
 }
 
 .header {
-    background-image: url(/images/header_img2.jpg);
+    background-image: url(./images/header_img2.jpg);
     width: 100%;
     height: 900px;
     background-repeat: no-repeat;
@@ -83,7 +83,7 @@ body {
 }
 
 .product1_image {
-    background-image: url(/images/makeupfixer1.png);
+    background-image: url(./images/makeupfixer1.png);
     background-position: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 220px;
@@ -120,28 +120,28 @@ body {
   }
   
   .slide:nth-child(1) {
-    background-image:url(/images/cotton_candy_body_scrub.png);
+    background-image:url(./images/cotton_candy_body_scrub.png);
     background-repeat:no-repeat; 
     background-position: center;
     border-radius: 10px;
   }
   
   .slide:nth-child(2) {
-    background-image:url(/images/citrus_dream.png);
+    background-image:url(./images/citrus_dream.png);
     background-repeat:no-repeat; 
     background-position: center;
     border-radius: 10px;
   }
   
   .slide:nth-child(3) {
-    background-image:url(/images/minty_dream.png); 
+    background-image:url(./images/minty_dream.png); 
     background-repeat:no-repeat; 
     background-position: center;
     border-radius: 10px;
   }
   
   .slide:nth-child(4) {
-    background-image:url(/images/tropical_berry.png);
+    background-image:url(./images/tropical_berry.png);
     background-repeat:no-repeat; 
     background-position: center;
     border-radius: 10px;
@@ -212,7 +212,6 @@ body {
     margin: 2em 0;
     height: 70px;
     background-color: #999;
-    margin-bottom: -30px;
   }
   footer .copyright {
     width: 50%;
@@ -230,6 +229,7 @@ body {
     line-height: 70px;
     text-transform: capitalize;
     letter-spacing: 1px;
+    margin-bottom: -30px;
   }
   @media (max-width: 600px) {
     footer .copyright p {
@@ -240,6 +240,7 @@ body {
   footer .social {
     width: 50%;
     float: right;
+    margin-bottom: -30px;
   }
   @media (max-width: 600px) {
     footer .social {
@@ -270,6 +271,7 @@ body {
     background-color: #1E83AE;
     font-size: 1.2em;
     width: 20%;
+    height: 70px;
   }
 
   .linked p {
