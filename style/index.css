@@ -83,7 +83,7 @@ body {
 }
 
 .product1_image {
-    background-image: url(./images/makeupfixer1.png);
+    background-image: url(/images/makeupfixer1.png);
     background-position: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 220px;
@@ -120,28 +120,28 @@ body {
   }
   
   .slide:nth-child(1) {
-    background-image:url(./images/cotton_candy_body_scrub.png);
+    background-image:url(/images/cotton_candy_body_scrub.png);
     background-repeat:no-repeat; 
     background-position: center;
     border-radius: 10px;
   }
   
   .slide:nth-child(2) {
-    background-image:url(./images/citrus_dream.png);
+    background-image:url(/images/citrus_dream.png);
     background-repeat:no-repeat; 
     background-position: center;
     border-radius: 10px;
   }
   
   .slide:nth-child(3) {
-    background-image:url(./images/minty_dream.png); 
+    background-image:url(/images/minty_dream.png); 
     background-repeat:no-repeat; 
     background-position: center;
     border-radius: 10px;
   }
   
   .slide:nth-child(4) {
-    background-image:url(./images/tropical_berry.png);
+    background-image:url(/images/tropical_berry.png);
     background-repeat:no-repeat; 
     background-position: center;
     border-radius: 10px;
