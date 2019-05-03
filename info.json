@@ -1,0 +1,111 @@
+{
+    "information": [{
+        "contact": [{
+            "email": "ownbeaute93@gmail.com",
+            "mobile": "+393473647618",
+            "instagram": "https://www.instagram.com/own_beaute/",
+            "facebook": "https://www.facebook.com/bio.beaute.58"
+        }],
+        "ingredients":[{
+            "byName":[{
+                
+            }],
+            "essentialOil":[{
+
+            }]
+        }],
+        "products": [{
+            "faceCare": [{
+                "roseFaceCream": [{
+                    "name": "Rose Face Cream",
+                    "price": "20€",
+                    "formulation": "Cream",
+                    "skinType": "Sensitive",
+                    "description": "An ultra-hydrating cream powered by organic rose water and aloe vera gel  to create the beauty elixir. Fresh’s Rose Deep Hydration Moisturizer is an advanced combo of shea butter, rose water, aloe vera gel and vitamin E oil to offer the best of the best for your skin. Created to treat even the most delicate skin types.",
+                    "category": "RoseLine",
+                    "image": "route of the image",
+                    "ingredients": "Shea butter: moisturizes and treats acnes and blemishes.Rosewater: Helps to soothe, while the rose flower oil helps to nourish. Aloe vera gel: hydrates the skin at its depth."
+                }],
+                "roseFaceScrub": [{
+                    "name": "Rose Face Scrub",
+                    "price": "10€",
+                    "formulation": "Gel, Cream, Sugar",
+                    "skinType": "Sensitive",
+                    "description": "An exfoliator that moisturizes at the same time. Different consistencies make it the perfect scrub for every type of skin. The rose face scrub is the Rose line scrub that permits your skin to have the maximum care in one only line.  Combined with the other rose line products is a must have for your daily routine to have a healthy glowing skin.",
+                    "category": "RoseLine",
+                    "image": "route of the image",
+                    "ingredients": "Coconut butter: moisturizes skin. Brown sugar: exfoliates skin. Rose oil: rose flower oil helps to nourish. Aloe vera gel: hydrates the skin at its depth"
+                }],
+                "roseFaceToner": [{
+                    "name": "Rose Face Toner",
+                    "price": "11€",
+                    "formulation": "Liquid",
+                    "skinType": "Sensitive",
+                    "despcription": "A toner designed to moisture and hydrate sensitive skin. The rose face toner is an unique product of the rose line. Made from 100% natural ingredients and alcohol free makes it a must in the daily routine.",
+                    "category": "RoseLine",
+                    "image": "route of the immage",
+                    "ingredients": "Rose water: hydrates the skin to its depth. Lavender oil: soothes and nourishes skin. Rose oil: rose flower oil helps to nourish."
+                }],
+                "roseMakeupRemover": [{
+                    "name": "Rose Makeup Remover",
+                    "price": "10€",
+                    "formulation": "Bifase",
+                    "skinType": "Sensitive",
+                    "despcription": "Designed to remove easily every kind of makeup leaving a glowing skin. The rose makeup remover is created to complete the face care line for sensitive skins. Used even by the most delicate skins.",
+                    "category": "RoseLine",
+                    "image": "route of image",
+                    "ingredients": "Rose water: hydrates the skin to its depth. Rose oil: rose flower oil helps to nourish. Coconut oil: helps on removing makeup and hydrating the skin at the same time. Vegetable glycerin: promotes skin health and helps the skin to stay hydrated"
+                }],
+                "teaTreeFaceCream":[{
+                    "name":"Tea Tree Face Cream",
+                    "price":"20€",
+                    "formulation":"Cream",
+                    "skinType":"Oily",
+                    "despcription":"An ultra-hydrating cream powered by organic tea tree oil and tea tree hydrolite to create the beauty elixir for oily skins. Tea Tree cream is created for problematic oily skins. It reduces the oily conditions of the skin treating it gently without promoting dehydration.",
+                    "category":"Tea Tree Line",
+                    "image":"http//",
+                    "ingredients":"Shea butter: moisturizes and treats acnes. Tea tree oil: treats oily problematic skin. Lavender oil: treats imperfections making the skin opaque"
+                }],
+                "teaTreeFaceScrub":[{
+                    "name":"Tea Tree Face Scrub",
+                    "price":"10€",
+                    "formulation":"Gel, Cream, Sugar",
+                    "skinType":"Oily",
+                    "despcription":"A gently exfoliator face scrub made to treat oily skins. It completes the treatment by providing puriness to the skin. ea Tree face scrub is created to completely exfoliate and clean the skin, providing it the moisture and the treatment needed.",
+                    "category":"Tea Tree Line",
+                    "image":"http//",
+                    "ingredients":"Tea tree oil: treats the oiliness. Aloe vera gel: hydrates the skin at its depth. Coconut butter: moisturizes skin. Brown sugar: exfoliates skin."
+                }],
+                "teaTreeFaceToner":[{
+                    "name":"Tea Tree Face Toner",
+                    "price":"11€",
+                    "formulation":"Liquid",
+                    "skinType":"Oily",
+                    "despcription":"A toner designed to moisture and hydrate oily skin. The tea tree face toner is an unique product especially designed for problematic oily skins that are prone to acne and blemishes. Made from 100% natural ingredients and alcohol free makes it a must in the daily routine.",
+                    "category":"Tea Tree Line",
+                    "image":"http//",
+                    "ingredients":"Tea tree hydrosol: distilled water of the tea tree that treats oiliness and blemishes on the skin. Tea tree oil: used to balance the skin pH and to fight imperfections. Vit E: used to promote skin health and anti ageing."
+                }],
+                "teaTreeFaceMakeupRemover":[{
+                    "name":"Tea Tree Makeup Remover",
+                    "price":"10€",
+                    "formulation":"Bifase",
+                    "skinType":"Oily",
+                    "despcription":"Designed to remove easily every kind of makeup leaving a glowing skin. The tea tree makeup remover is created to complete the face care line for oily skins. Used even by the most delicate skins.",
+                    "category":"Tea Tree Line",
+                    "image":"",
+                    "ingredients":"Tea tree hydrosol: distilled water of the tea tree that treats oiliness and blemishes on the skin. Tea tree oil: used to balance the skin pH and to fight imperfections. Coconut oil: helps on removing makeup and hydrating the skin at the same time. Vegetable glycerin: promotes skin health and helps the skin to stay hydrated. Aloe vera gel: helps to hydrate the skin."
+                }]
+            }],
+            "bodyCare":[{
+
+            }],
+            "hairCare":[{
+
+            }],
+            "otherCosmettics":[{
+
+            }]
+        }]
+    }]
+}

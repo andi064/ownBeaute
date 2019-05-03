@@ -29,3 +29,4 @@ function redirectHair(){
 function redirectOther(){
     location.replace("other_products.html");
 }
+
